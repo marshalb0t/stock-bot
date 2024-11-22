@@ -25,7 +25,7 @@ require("dotenv").config();
   const { loadEvents } = require("./utils/handler/eventHandler");
   loadEvents(client);
 
-  client.login(process.env.token);
+  client.login("Nzc5MDA3Njg3MjQ1Mjk5NzI0.G-Raqk.AQLiZ2KIZomxUzSUyzXFf2W70dQ0bHMpzQuaUg");
 
   // error handle all time
   const webhookIdPrivate = ""; //webhook id
